@@ -64,6 +64,49 @@ export default function History() {
 
           </div>
 
+          {/* First Durga Puja */}
+          <div className="relative flex flex-col md:flex-row items-center justify-between mb-12">
+            
+            <div className="w-full md:w-[45%] pl-20 md:pl-0 pr-0 md:pr-12 order-2 md:order-1">
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm"
+              >
+                <div className="relative w-full h-64 md:h-72 rounded-xl overflow-hidden mb-4 border border-slate-100">
+                  <img src="/images/first durga puja.jpeg" alt="Club's first Durga Puja" className="object-cover w-full h-full hover:scale-105 transition-transform duration-500" />
+                </div>
+                <p className="text-slate-600 leading-relaxed font-medium mb-4">
+                  Photo of the club&apos;s first Durga Puja. ❤️
+                </p>
+                <div className="text-sm text-slate-500 space-y-1">
+                  <p>Photo courtesy: Mr. Rabi Dutta (Kaku) 🙏</p>
+                  <p>Information: Mr. Shyamapada Sarkar (Bikash Kaku) 🙏</p>
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Marker */}
+            <div className="absolute left-8 md:left-1/2 -translate-x-1/2 flex items-center justify-center w-8 h-8 rounded-full bg-white border-4 border-maroon shadow-sm z-10" />
+
+            <div className="w-full md:w-[45%] pl-20 md:pl-12 mb-4 md:mb-0 order-1 md:order-2">
+              <motion.div
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <h3 className="text-2xl font-playfair font-bold text-navy">First Durga Puja</h3>
+                <span className="inline-block py-1 px-3 mt-2 rounded-full bg-sky-100 text-maroon font-semibold text-sm">
+                  Historical Moment
+                </span>
+              </motion.div>
+            </div>
+
+          </div>
+
           {/* Future Marker */}
           <div className="relative flex flex-col md:flex-row items-center justify-between">
             <div className="w-full md:w-[45%] pl-20 md:pl-0 md:text-right pr-0 md:pr-12 mb-4 md:mb-0" />

@@ -10,6 +10,8 @@ import Publication from "@/components/Publication";
 import History from "@/components/History";
 import Location from "@/components/Location";
 import Footer from "@/components/Footer";
+import Sponsorship from "@/components/Sponsorship";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -21,8 +23,10 @@ export default function Home() {
         <About />
         <Stats />
         <Activities />
+        <Gallery />
         <NoticeBoard />
         <Theme2026 />
+        <Sponsorship />
         <Committee />
         <Publication />
         <History />
@@ -30,6 +34,7 @@ export default function Home() {
       </div>
       
       <Footer />
+      
     </main>
   );
 }

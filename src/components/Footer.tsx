@@ -25,13 +25,19 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-white font-bold mb-6 text-lg">Official Address</h4>
-            <address className="not-italic leading-relaxed space-y-1">
-              <p>Vivekananda Para,</p>
-              <p>Dhupguri,</p>
-              <p>Dist - Jalpaiguri,</p>
-              <p>West Bengal</p>
-            </address>
+            <h4 className="text-white font-bold mb-6 text-lg">Contact & Address</h4>
+            <div className="space-y-4">
+              <address className="not-italic leading-relaxed space-y-1 text-white/80">
+                <p>Vivekananda Para,</p>
+                <p>Dhupguri,</p>
+                <p>Dist - Jalpaiguri,</p>
+                <p>West Bengal</p>
+              </address>
+              <div>
+                <p className="text-sm text-white/60 mb-1">Official Number</p>
+                <p className="font-medium text-white">98321 52755 <span className="text-sm text-white/60 font-normal">(General Secretary)</span></p>
+              </div>
+            </div>
           </div>
           
           <div>
@@ -59,6 +65,22 @@ export default function Footer() {
             </div>
           </div>
           
+        </div>
+        
+        {/* Footer Banner */}
+        <div className="flex justify-center pb-12 px-4">
+          <a 
+            href="https://www.digitaldictionarysiliguri.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block w-full max-w-4xl animate-[pulse_3s_ease-in-out_infinite] hover:animate-none group"
+          >
+            <img 
+              src="/banner-transparent.png" 
+              alt="Digital Dictionary Siliguri" 
+              className="w-full h-auto drop-shadow-2xl group-hover:scale-105 transition-transform duration-500" 
+            />
+          </a>
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">

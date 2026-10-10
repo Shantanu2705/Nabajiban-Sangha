@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Nabajiban Sangha",
     images: [
       {
-        url: "/logo/logo.jpeg",
+        url: "/logo/logo.png",
         width: 800,
         height: 600,
         alt: "Nabajiban Sangha Logo",
